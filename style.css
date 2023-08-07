@@ -1,0 +1,71 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+
+  /* copied this code from css trick in which the images contains full background img */
+  background: url(header.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    
+}
+
+/* Depending on the Bootstrap version you are using,
+you may see a different effect. If you are using Bootstrap 5 or higher,then in your CSS file,I recommend adding this line of code for the hr tag in order to see similar effects as you would in the next video: */
+hr {
+  margin: 20px auto;
+  color: #F05F44;
+  border: 3px solid #F05F44;
+  max-width: 65px;
+  opacity: 1;
+}
+hr{
+  border-color: #F05F44;
+  border-width: 3px;
+  max-width: 65px;
+
+}
+h1{
+  font-size: 3rem;
+  color: #e2dbdb;
+}
+
+.btn-xl{
+  padding:1rem 2rem ;
+
+}
+.btn{
+  font-weight: 700;
+  border-radius:300px ;
+  text-transform: uppercase;
+  
+}
+.btn-primary{
+  background-color: #F05F44;
+  border-color: transparent;
+
+}
+.btn-primary:hover{
+  background-color: #ee4b08;
+  border-color: transparent;
+  border-width: 4px;
+}
+.buffer{
+  height: 10rem;
+}
+/* body{
+  
+  background-image: url('header.jpg');
+  background-size: cover;
+}
+.heading{
+  color: white;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+} */
